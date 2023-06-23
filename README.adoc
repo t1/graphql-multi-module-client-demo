@@ -1,0 +1,18 @@
+= Demo of a multi-module GraphQL service on WildFly
+
+A POC and reproducer of a GraphQL `war` containing two `jar` s.
+
+Build with:
+
+[source,bash]
+----
+mvn install
+----
+
+Then start with:
+
+[source,bash]
+----
+cd war
+mvn clean wildfly:provision wildfly:dev
+----

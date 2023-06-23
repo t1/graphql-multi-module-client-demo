@@ -12,9 +12,4 @@
     </parent>
 
     <artifactId>graphql-multi-module-client-demo-client</artifactId>
-    <packaging>war</packaging>
-
-    <build>
-        <finalName>client</finalName>
-    </build>
 </project>
