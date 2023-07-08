@@ -18,12 +18,12 @@
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>graphql-multi-module-client-demo-client</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>graphql-multi-module-client-demo-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
